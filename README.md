@@ -1,6 +1,5 @@
 # MobileApp-Referee-Manager
-Referee Manager is a simple mobile app for managing referees and their match assignments. The app lets referees and coordinators view profiles, add and update personal information, record past matches, and see upcoming assignments. It works offline so referees can update availability or match notes on their phones without an internet connection; changes are synced automatically when online.
-
+Referee Manager is a simple mobile app that helps sports coordinators organize referees and their match assignments easily. It allows users to view and edit referee details, record past games, and check upcoming matches in one place. The app also works offline, so information can still be viewed or updated anywhere. Once internet access is available, all updates are synchronized automatically. This saves time, reduces paperwork, and keeps referee data always up to date.  
 # Referee will have the following information stored:  
 -> id — Unique identifier (assigned by server).  
 -> fullName — Full name shown in the list and profile.  
