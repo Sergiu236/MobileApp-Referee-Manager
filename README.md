@@ -45,9 +45,9 @@ Delete (Remove match record) — local remove + server delete queued.
 
 # Persistence details (what is stored where)
 
--Local database (mobile device) — All referees and match records are persisted locally (SQLite or similar). This ensures the app is fully functional offline (reads/writes).  
+-Local database (mobile device) — All referees and match records are persisted locally. This ensures the app is fully functional offline.  
 -Server (remote central API) — The definitive copy lives on the server. The app synchronizes changes (create / update / delete) to the server when online.  
--Minimum operations persisted on both (for excellent rubric coverage): Create, Update, Delete for both Referee and Match are persisted locally immediately and sent to the server when online. Read uses local cache for speed and offline availability; server read updates local cache on sync.
+-Minimum operations persisted on both: Create, Update, Delete for both Referee and Match are persisted locally immediately and sent to the server when online.
 
 # Offline scenarios (one separate scenario for each CRUD operation as required)
 
